@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+nav{
+    background-color: #b13941;
+    background-image: url(./img/Design.png);
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+li>a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+
+.banner{
+    background: url(./img/HomePage.png)no-repeat center center/cover;
+}
+
+.title{
+    text-align: center;
+    padding: 50px;
+}
+
+h1{
+    padding: 10px;
+    font-size: 92px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+
+.para>p{
+    font-size: 21px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+    padding: 20px 100px;
+    margin: 5px 100px 23px;
+}
+.para{
+    padding: 0px 50px;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: #b13941;
+    font-size: 21px;
+    color: #feedda;
+    font-weight: 700;
+    font-family: "PT Serif";
+    text-align: center;
+    margin: 50px 0px 60px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.section1{
+    background-color: #b13941;
+    background-image: url(./img/Design.png);
+    display: flex;
+    align-items: center;
+}
+
+.image1{
+    width: 40%;
+    text-align: center;
+}
+
+.title1{
+    width: 60%;
+}
+
+.title1 h2{  
+    font-size: 50px;
+    padding: 50px 0px 0px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.text p{
+    padding: 20px 100px 0px 0px;
+    font-size: 17px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+
+.button button{
+    padding: 10px 30px;
+    background-color: #feedda;
+    font-size: 18px;
+    color: #b13941;
+    font-weight: 700;
+    font-family: "PT Serif";
+    text-align: center;
+}
+
+.section2{
+    background-color: #f8eed3;
+    display: flex;
+}
+
+.title2{
+    padding: 100px 50px 30px 100px;
+    margin: 50px 0 0 0;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.text1{
+    margin: 0px 50px 0px 50px;
+}
+
+.text1>p{
+    padding: 10px 100px 30px 50px;
+    margin: 0px 100px 0px 0px;
+    font-size: 21px;
+    color: #575757;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+
+.link{
+    padding: 10px 100px 30px 50px;
+    margin: 0px 100px 0px 50px;
+}
+
+a{
+    color: rgba(165, 42, 42, 0.871);
+    font-family: "PT Serif";
+}
+
+.section3{
+    background-color: #b13941;
+    background-image: url(./img/Design.png));
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.name{
+    padding: 80px 0 10px;
+    font-size: 30px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+
+.text2{
+    padding: 10px 100px;
+    margin: 10px 100px;
+    font-size: 16px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+}
+
+.text2>p{
+    padding: 0px 100px;
+    margin: 0px 50px;
+}
+
+.section3 .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+.section3 .col-33 {
+    display: flex;
+    width: 33.33%;
+    background-color: #ffffff;
+}
+
+h3{
+    padding: 40px 30px 0px;
+    font-size: 30px;
+    color: #010101;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Yeseva One";
+}
+
+h3+p {
+    padding: 40px 30px 5px;
+    font-size: 10px;
+    color: #575757;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+
+.col-33 button{
+    margin: 30px;
+    font-size: 10px;
+    width: 118px;
+    height: 37px;
+    background-color: #b13941;
+}
+
+.text4>h3{
+    padding: 40px 7px 18px;
+    font-size: 30px;
+    color: #010101;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.text4>p{
+    padding: 20px 7px 8px;
+    font-size: 10px;
+    color: #575757;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+
+.section4{
+    background-color: #f8eed3;
+}
+
+.section4 .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.section4 .name{
+    padding: 80px 0 10px;
+    font-size: 30px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+
+.section4 .text2{
+    padding: 10px 100px;
+    margin: 10px 100px;
+    font-size: 16px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+}
+
+.section4 .text2>p{
+    padding: 0px 100px;
+    margin: 0px 50px;
+}
+
+.section4 .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 80px;
+}
+
+.section4 img{
+    width: 100%;
+}
+
+.section4 .col-33 {
+    width: 33.33%;
+    background-color: #ffffff
+}
+
+.section4 h3{
+    padding: 0px 30px 8px 0px;
+    font-size: 33px;
+    color: #010101;
+    /* background-color: #f8eed3; */
+    /* border: 1px solid #b13941; */
+    font-weight: 400;
+    text-align: center;
+    font-family: "Yeseva One";
+}
+
+.section4 h3+p {
+    padding: 20px 70px 8px;
+    font-size: 17px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+}
+
+.section4 .col-33 button{
+    margin: 30px 100px;
+    font-size: 12px;
+    width: 136px;
+    height: 41px;
+    background-color: #b13941;
+}
+
+.button1{
+    margin: 0px 50px;
+}
+
+.section5{
+    background-color: #b13941;
+    background-image: url(./img/Design.png);
+    display: flex;
+}
+
+.image3{
+    padding: 100px 50px 50px;
+}
+
+.title3{
+    padding: 100px 20px 30px 10px;
+    margin: 80px 0 0 0;
+    font-size: 40px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.text6>p{
+    padding: 10px 100px 30px 10px;
+    margin: 0 80px 0 0;
+    font-size: 21px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+
+.logos{
+    padding: 10px 100px 30px 10px;
+    display: flex;
+    gap: 50px;
+    color: #b13941;  
+}
+
+.facebook,.instagram,.twitter{
+    background-color: #f8eed3;
+    padding: 4px 8px;
+    font-size: 20px;
+}
+
+.section6{
+    background-color: #ffffff;
+    display: flex;
+}
+
+.title4{
+    padding: 100px 20px 30px 50px;
+    font-size: 50px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.form-text{
+    padding: 20px 20px 30px 50px;
+}
+
+input{
+    width: 651px;
+    height: 62px;
+    font-size: 15px;
+    background-color: #efefef;
+    border: 1.5px solid #b0b0b0;
+    padding: 20px 30px;
+}
+
+.message{
+    width: 650px;
+    height: 202px;
+}
+
+.section6 button{
+    margin: 0px 50px;
+}
+
+.footer{
+    background-color: #b13941;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image4{
+    padding: 100px 50px 50px 100px;
+}
+
+.text7 h3{
+    padding: 80px 20px 0px 0px;
+    font-size: 25px;
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: "EB Garamond";
+}
+
+.text7 p{
+    padding: 48px 10px 50px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "EB Garamond";
+}
+
+.text7 a{
+    padding: 10px 0px 0px 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "EB Garamond";
+    text-decoration: none;
+}
+
+.text8{
+    display: flex;
+    flex-direction: column;
+}
+
+.text8 h3{
+    padding: 80px 10px 0px 10px;
+    font-size: 25px;
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: "EB Garamond";
+}
+
+.text8 a{
+    padding: 10px 10px 0px 10px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "EB Garamond";
+    text-decoration: none;
+}
+
+.text9 h3{
+    padding: 80px 10px 0px 10px;
+    font-size: 25px;
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: "EB Garamond";
+}
+
+.text9 p{
+    padding: 10px 10px 0;
+    line-height: 33px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "EB Garamond";
+}
+
+.text10 img{
+    padding: 80px 0 10px;
+    height: 190px;
+}
+
+.text10 p{
+    padding: 0px 10px 10px;
+    line-height: 33px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "EB Garamond";
+}

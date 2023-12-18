@@ -1,0 +1,168 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+    .banner{
+        background: url(./img/HomePage.png)no-repeat center center/cover;
+        width: 576px;
+    }
+    .banner h1{
+        font-size: 50px;
+        padding: 10px 0px;
+    }
+     .banner p{
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+    .banner button{
+        margin: 20px 0px;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .title1 h2{
+        font-size: 34px;
+    }
+    .text p{
+        padding: 20px 0px;
+    }
+    .button button{
+        margin: 20px 0px 50px;
+    }
+    .image2 img{
+        width: 300px;
+        height: 390px;
+    }
+    .title2{
+        font-size: 15px;
+        margin: 0;
+        padding: 50px 50px 20px;
+    }
+    .text1>p{
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    .link{
+        margin: 0;
+    }
+    .name{
+        padding: 30px 0 20px;
+        font-size: 50px;
+    }
+    .text2{
+        font-size: 15px;
+        margin: 0;
+        padding: 0 0 20px;  
+    }
+    .section3 .row, .section3 .col-33{
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+    }
+    .image img{
+        width: 520px;
+        height: 450px;
+    }
+    .text4 p{
+        padding: 0px 30px;
+    }
+    .section4 .row,.section4 .col-33{
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+    }
+    .section4 .name{
+        padding: 30px 0 20px;
+        font-size: 50px;
+    }
+    .section4 .text2{
+        font-size: 15px;
+        margin: 0;
+        padding: 0 0 20px;  
+    }
+    .section5{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .image3 img{
+        width: 500px; 
+        height: 459px;
+        margin: 0;
+        padding: 0;
+    }
+    .title3{
+        padding: 0;
+        margin: 0;
+    }
+    .section5 .box1{
+        text-align: center;
+    }
+    .text6{
+        padding: 0 0 0 100px;
+    }
+    .logos{
+        padding-left: 100px;
+        margin-left: 60px;
+    }
+    .section6{
+        flex-wrap: wrap;
+    }
+    .section6 .image2 img{
+        width: 550px; 
+        height: 459px;
+        padding: 20px 0 0 50px;
+    } 
+    .title4{
+        padding: 50px 20px 30px 50px;
+        font-size: 40px;
+        color: #b13941;
+        font-weight: 400;
+        font-family: "Yeseva One";
+    }
+    .form-text{
+        padding: 20px 20px 30px 50px;
+    }
+    input{
+        width: 500px;
+        height: 62px;
+        font-size: 15px;
+        background-color: #efefef;
+        border: 1.5px solid #b0b0b0;
+        padding: 20px 30px;
+    }
+    .message{
+        width: 500px;
+        height: 202px;
+    }
+    .section6 button{
+        margin: 0px 50px 30px;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .image4{
+        padding: 100px 50px 50px 90px;
+    }
+    .text10{
+        text-align: center;
+    }
+    .text10 img,.text10 p{
+        padding-left: 70px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
