@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .btn {
+            border: 2px solid black;
+            font-weight: bold;
+            padding: 9px 15px;
+            transition: 0.5s;
+        }
+
+        .btn-white {
+            border: 2px solid white;
+            background-color: black;
+            font-weight: bold;
+            color: white;
+        }
+
+        .btn-5:hover,
+        .btn-white:hover {
+            background-color: white !important;
+            border: 2px solid black;
+        }
+
+        .btn:hover {
+            box-shadow: 0 27px 30px -20px #000000 !important;
+            transform: scale(1.1) rotateX(1deg) rotateY(0deg) rotateZ(4deg);
+            
+        }
+
+        .icons {
+            display: flex;
+        }
+
+        .part-1 {
+            transition: 0.5s;
+        }
+
+        .part-1:hover {
+            box-shadow: 0 50px 50px -25px rgba(0, 0, 0, 0.3);
+            transform: rotate(-2deg) scale(1.03);
+        }
+
+        .nav-ul {
+            display: flex;
+        }
+
+        .min-part i {
+            font-size: 90px;
+        }
+
+
+
+        @media (max-width:992px) {
+            .icons {
+                display: none;
+            }
+
+            .btn-6 {
+                display: none;
+            }
+
+            .nav-ul {
+                text-align: center;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-2 pb-4 ">
+            <div class="container ">
+                <a class="navbar-brand fw-bold my-2 fs-1" href="#">ToolM5</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                    <ul class="nav-ul navbar-nav h4 my-2 mt-3  ">
+                        <li class="nav-item">
+                            <a class="nav-link active px-3" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icons fs-4 my-2 mt-3 mx-3 justify-content-end ">
+                    <a href=""><i class="fa-brands fa-facebook-f text-dark px-3"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter text-dark px-3"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram text-dark px-3 fs-3"></i></a>
+                </div>
+                <button class="btn btn-6 btn-5 my-2 mt-3 mx-2 rounded-pill bg-success">Get
+                    Started <span class="bg-dark text-white p-1 px-2 rounded-circle text-center">></span></button>
+            </div>
+        </nav>
+
+        <div class="section-1 container p-5 bg-success text-center rounded-5 my-3 mb-5 ">
+            <p class="h1 fw-normal m-5">Create your</p>
+            <h1 class="display-1 fw-bold mb-5">T-Shirt Design</h1>
+            <button class="btn btn-white rounded-pill px-5 py-3 fs-5 ">Get
+                Started</button>
+            <p class="fs-4 fw-bold text-decoretion-line my-4 text-decoration-underline">View how it works</p>
+            <p class="fs-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <hr class="my-5">
+
+
+        <div class="section-2 container ">
+            <p class="h2">Our Features</p>
+
+            <div class="image-sections d-flex justify-content-between mt-3 mb-5 py-3 row">
+
+                <div class="min-part d-flex justify-content-center col-12 col-sm-12 col-md-6 col-lg-3">
+                    <i class="fa-solid fa-palette text-success my-4 mx-2"></i>
+                    <p class="pt-4 mt-3 fw-bold fs-5">Unique Design <br>
+                        <span class="text-muted">Jul 13 2025</span>
+                    </p>
+                </div>
+
+                <div class="min-part d-flex justify-content-center col-12 col-sm-12 col-md-6 col-lg-3">
+                    <i class="fa-solid fa-layer-group text-success my-4 mx-2"></i>
+                    <p class="pt-4 mt-3 fw-bold fs-5">Quality Materials <br>
+                        <span class="text-muted">Jul 15 2025</span>
+                    </p>
+                </div>
+
+                <div class="min-part d-flex justify-content-center col-12 col-sm-12 col-md-6 col-lg-3">
+                    <i class="fa-solid fa-shirt text-success my-4 mx-2"></i>
+                    <p class="pt-4 mt-3 fw-bold fs-5">High Print Quality <br>
+                        <span class="text-muted">Jul 23 2025</span>
+                    </p>
+                </div>
+
+                <div class="min-part d-flex justify-content-center col-12 col-sm-12 col-md-6 col-lg-3">
+                    <i class="fa-regular fa-face-smile text-success my-4 mx-2"></i>
+                    <p class="pt-4 mt-3 fw-bold fs-5">Good Rwviews <br>
+                        <span class="text-muted">Jul 27 2025</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="main container mb-5 bg-dark h-100vh rounded-5 pt-2 pb-4">
+                <h2 class="text-white my-4 ms-3">How it works?</h2>
+                <div class="parts row mx-4">
+                    <div class="part-1 rounded-5 col-sm-12 col-md-12 col-lg col-xl bg-white p-5 me-5 mb-4">
+                        <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg" alt=""
+                            class="w-100 rounded">
+                        <h1 class="display-4 pt-3 fw-bold">Unique T-Shirt</h1>
+                        <div class="btn-part d-flex justify-content-between mt-5">
+                            <button class="btn btn-4 border border-2 border-dark rounded-pill px-3 py-2 fw-bold ">Buy for
+                                $59</button>
+                            <button
+                                class="btn btn-5 border border-2 border-dark rounded-pill px-3 py-2 fw-bold bg-success">View
+                                all <span
+                                    class="bg-dark text-white p-1 px-2 rounded-circle text-center">></span></button>
+                        </div>
+                    </div>
+                    <div class="part-1 rounded-5 col-sm-12 col-md-12 col-lg col-xl bg-white p-4 mb-4">
+                        <p class="fs-3">Unique T-Shirt Design</p>
+                        <hr class="mb-3">
+                        <p class="fw-bold fs-4 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellendus consectetur nam fuga, ullam placeat iste quos officia dolore nostrum praesentium
+                            odio ex magnam quaerat aliquid eveniet ut sequi, est assumenda? Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Nam id
+                            orci nec.</p>
+                        <p class="fw-bold fs-4 my-5 mb-5">Phasellus euismod maximus ipsum vehicula vehicula. Mauris
+                            posuere lore
+                            risus nec purus dapibus semper sed id ligula. Integer massa lorem, fringilla vel eros.</p>
+                        <div class=" btn-3 btn-part d-flex justify-content-between my-5">
+                            <button
+                                class="btn btn-4 border border-2 border-dark rounded-pill px-3 py-2 fw-bold">Subscribe
+                                $59/q</button>
+                            <button
+                                class="btn btn-5 border border-2 border-dark rounded-pill px-3 py-2 fw-bold bg-success">More
+                                Info <span
+                                    class="bg-dark text-white p-1 px-2 rounded-circle text-center">></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section-3 container d-flex my-5 py-5 px-5 row ">
+
+            <span class=" h1 col-12 col-sm-12 col-md-12 col-lg-6 mb-4 text-center fw-normal">About Us</span>
+            <div
+                class="col-12 col-sm-12 col-md-12 col-lg-6 border-start border-2 ps-3 fs-5 border-secondary text-muted ">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Mauris felis elit, faucibus at tincidunt vel, ultrices vitae mauris.
+                Pellentesque nec ante nisi. Praesent posuere dignissim nibh in finibus. Nunc rutrum nibh pellentesque,
+                viverra dolor quis, sollicitudin libero. Duis non elit feugiat maximus.</div>
+
+        </div>
+
+        <div class="section-4 container my-5">
+
+            <p class="h2 my-5">Professional Tools</p>
+
+            <div class="main-part bg-success d-flex row justify-content-between p-4 rounded-5 ">
+                <div class="part-1 col-11 col-sm-11 col-md-5 col-lg m-3 rounded-5 bg-white">
+                    <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpg"
+                        class=" w-100 h-50 rounded-5 img-fluid rounded-bottom" alt="">
+                    <p class="h4 mt-4 px-4">Quality Materials</p>
+                    <p class="h5 fw-normal px-4">Lorem ipsum dolor sit amet</p>
+                    <hr class="border border-dark">
+                    <button class="btn mx-3 border-0">Read More ></button>
+                </div>
+
+                <div class="part-1 col-11 col-sm-11 col-md-5 col-lg m-3 rounded-5 bg-white">
+                    <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-1.jpg"
+                        class="w-100 h-50 rounded-5 rounded-bottom" alt="">
+                    <p class="h4 mt-4 px-4">High Print Quality</p>
+                    <p class="h5 fw-normal px-4">Lorem ipsum dolor sit amet</p>
+                    <hr class="border border-dark">
+                    <button class="btn mx-3 border-0">Read More ></button>
+                </div>
+
+                <div class="part-1 col-11 col-sm-11 col-md-5 col-lg m-3 rounded-5 bg-white">
+                    <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg"
+                        class="w-100 h-50 rounded-5 rounded-bottom" alt="">
+                    <p class="h4 mt-4 px-4">Good Review</p>
+                    <p class="h5 fw-normal px-4">Lorem ipsum dolor sit amet</p>
+                    <hr class="border border-dark">
+                    <button class="btn mx-3 border-0">Read More ></button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section-3 container text-center d-block m-auto my-5 py-5 w-100 row "
+            style="margin-top: 100px !important;">
+
+            <span class=" h1 col-12 mb-4 fw-bold">Our Shop</span>
+            <div class="col-12 fs-5 mt-3 text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla <br> suscipit orci eu
+                pellentesque. Nullam consectetur dolor vel ex ullamcorper,<br> non viverra neque aliquet.</div>
+
+        </div>
+
+        <div class="container">
+            <div class="card part-1 mb-3 w-auto rounded-5 my-5"
+                style="background-color:#dddddd; border: none !important;">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-1.jpg"
+                            class="img-fluid" style="border-radius: 30px !important;" alt="...">
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center ">
+                        <div class="card-body ">
+                            <h5 class="card-title h3 fs-1">T-shirt with Print</h5>
+                            <p class="card-text fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Nulla ultricies metus et nibh gravida, eu imperdiet ante egestas. Duis ornare
+                                lobortis ante, eget eleifend sapien dictum ut. Vestibulum ante ipsum primis in faucibus
+                                orci luctus et ultrices.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 d-flex align-items-center">
+                        <div class="p">
+                            <h2 class="display-1" style="font-weight: 400;"> $29</h2>
+                            <button class="btn btn-6 btn-5 my-2 mt-3 mx-2 rounded-pill bg-success">Buy Now <span
+                                    class="bg-dark text-white p-1 px-2 rounded-circle text-center">></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card part-1 mb-3 w-auto rounded-5 my-5"
+                style="background-color:#dddddd; border: none !important;">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg"
+                            class="img-fluid" style="border-radius: 30px !important;" alt="...">
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center ">
+                        <div class="card-body ">
+                            <h5 class="card-title h3 fs-1">T-shirt with Slogan</h5>
+                            <p class="card-text fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Nulla ultricies metus et nibh gravida, eu imperdiet ante egestas. Duis ornare
+                                lobortis ante, eget eleifend sapien dictum ut. Vestibulum ante ipsum primis in faucibus
+                                orci luctus et ultrices.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 d-flex align-items-center">
+                        <div class="p">
+                            <h2 class="display-1" style="font-weight: 400;"> $29</h2>
+                            <button class="btn btn-6 btn-5 my-2 mt-3 mx-2 rounded-pill bg-success">Buy Now <span
+                                    class="bg-dark text-white p-1 px-2 rounded-circle text-center">></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-4 container py-5 my-5">
+
+            <p class="h2 mt-5">Professional Tools</p>
+            <p class="text-muted fs-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <div class="main-part bg-success d-flex row justify-content-between p-4 rounded-5 ">
+                <div class="part-1 col-11 col-sm-11 col-md-5 col-lg m-3 rounded-5 bg-white">
+                    <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team1.jpg"
+                        class=" w-100 h-50 rounded-5 img-fluid rounded-bottom" alt="">
+                    <p class="h4 mt-4 px-4">Jessica Swift</p>
+                    <p class="h5 fw-normal px-4">Manager <br>
+                        Lorem ipsum dolor sit amet, consectet adipiscing elit.</p><br>
+                    <button class="btn btn-6 btn-5 mt-3 mx-2 rounded-pill bg-success">Viev Profile <span
+                            class="bg-dark text-white p-1 px-2 rounded-circle text-center">></span></button>
+                </div>
+
+                <div class="part-1 col-11 col-sm-11 col-md-5 col-lg m-3 rounded-5 bg-white">
+                    <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team2.jpg"
+                        class=" w-100 h-50 rounded-5 img-fluid rounded-bottom" alt="">
+                    <p class="h4 mt-4 px-4">Ben Palmer</p>
+                    <p class="h5 fw-normal px-4">Designer<br>
+                        Lorem ipsum dolor sit amet, consectet adipiscing elit.</p><br>
+                    <button class="btn btn-6 btn-5 my-2 mt-3 mx-2 rounded-pill bg-success">Viev Profile <span
+                            class="bg-dark text-white p-1 px-2 rounded-circle text-center">></span></button>
+                </div>
+                <div class="part-1 col-11 col-sm-11 col-md-5 col-lg m-3 rounded-5 bg-white">
+                    <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team3.jpg"
+                        class=" w-100 h-50 rounded-5 img-fluid rounded-bottom" alt="">
+                    <p class="h4 mt-4 px-4">Adam Brown</p>
+                    <p class="h5 fw-normal px-4">Developer <br>
+                        Lorem ipsum dolor sit amet, consectet adipiscing elit.</p><br>
+                    <button class="btn btn-6 btn-5 my-2 mt-3 mx-2 rounded-pill bg-success">Viev Profile <span
+                            class="bg-dark text-white p-1 px-2 rounded-circle text-center">></span></button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+</body>
+</html>
